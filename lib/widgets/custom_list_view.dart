@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_app/widgets/xustom_item2.dart';
+import 'package:responsive_app/widgets/custom_item2.dart';
 
 class CustomSliverListView extends StatelessWidget {
   const CustomSliverListView({super.key});
