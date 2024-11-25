@@ -15,7 +15,7 @@ class HomeViewBody extends StatelessWidget {
         if (constrains.maxWidth < 600) {
           return const MobileLayout();
         } else if (constrains.maxWidth < 900) {
-          return const MobileLayout();
+          return const TabletLayout();
         } else {
           return const DesktopLayuot();
         }
