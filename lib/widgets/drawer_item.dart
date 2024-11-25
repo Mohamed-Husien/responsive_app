@@ -10,7 +10,10 @@ class DrawerItem extends StatelessWidget {
       leading: Icon(drawerItemModel.icon),
       title: Padding(
         padding: const EdgeInsets.only(right: 16),
-        child: Text(drawerItemModel.title),
+        child: FittedBox(
+            alignment: Alignment.centerLeft,
+            fit: BoxFit.scaleDown,
+            child: Text(drawerItemModel.title)),
       ),
     );
   }
