@@ -21,7 +21,10 @@ class DesktopLayuot extends StatelessWidget {
           ),
         ),
         Expanded(
-          child: CustomDesktopItem(),
+          child: Padding(
+            padding: EdgeInsets.only(top: 16.0),
+            child: CustomDesktopItem(),
+          ),
         ),
       ],
     );

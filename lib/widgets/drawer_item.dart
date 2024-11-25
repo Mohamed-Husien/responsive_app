@@ -8,7 +8,10 @@ class DrawerItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       leading: Icon(drawerItemModel.icon),
-      title: Text(drawerItemModel.title),
+      title: Padding(
+        padding: const EdgeInsets.only(right: 16),
+        child: Text(drawerItemModel.title),
+      ),
     );
   }
 }
