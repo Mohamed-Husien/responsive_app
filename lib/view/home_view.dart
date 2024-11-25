@@ -18,7 +18,7 @@ class _HomeViewState extends State<HomeView> {
       key: globalKey,
       drawer: const CustomDrawer(),
       backgroundColor: const Color(0xffDBDBDB),
-      appBar: MediaQuery.sizeOf(context).width < 900
+      appBar: MediaQuery.sizeOf(context).width - 32 < 900
           ? AppBar(
               backgroundColor: Colors.black,
               leading: IconButton(
